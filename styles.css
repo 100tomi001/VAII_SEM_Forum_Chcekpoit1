@@ -1,3 +1,19 @@
+@media (min-width: 1024px) {
+    body {
+        font-size: 18px;
+    }
+
+    header {
+        padding: 20px;
+        text-align: center;
+    }
+
+    main {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+}
+
 body {
     font-family: Arial, sans-serif;
         background-image: url('./pictures/PDX_Main_BG.jpg');
@@ -9,6 +25,10 @@ body {
 header {
     background-color: #333;
     color: white;
+    padding: 20px;
+    text-align: center;
+    margin-left: 220px; 
+    width: calc(100% - 220px);
 }
 a {
     text-decoration: none;
